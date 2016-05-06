@@ -29,7 +29,7 @@ body {
 
 .header a {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
     color: #000;
     padding-left: 20%;
     text-transform: uppercase;  
@@ -53,6 +53,19 @@ body {
   overflow-x: hidden;
   padding: 0px!important;
 }
+
+article {
+  height: 50px;
+}
+
+.slick-dots {
+  bottom: -10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 50px;
+}
+
+/* Dots */
+.slick-slider { margin-bottom: 30px; }
 
 .carouselContainer {
   max-height: 700px;
