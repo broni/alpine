@@ -7,7 +7,7 @@
  * # AboutCtrl
  * Controller of the yoAngularTestAppApp
  */
-angular.module('yoAngularTestAppApp')
+angular.module('alpineApp')
   .controller('AboutCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

@@ -7,7 +7,7 @@
  * # MainCtrl
  * Controller of the yoAngularTestAppApp
  */
-angular.module('yoAngularTestAppApp')
+angular.module('alpineApp')
   .controller('welcomeCtrl', function ($scope) {
 
     $scope.welcome = "TOTOTOTOTOTOTO";

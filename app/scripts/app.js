@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('yoAngularTestAppApp', [
+  .module('alpineApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
