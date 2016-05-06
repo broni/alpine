@@ -9,9 +9,9 @@
  */
 angular.module('alpineApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    $('.slick-carousel').slick({
+      dots: true,
+      autoplay: true,
+      autoplaySpeed: 6000
+    });
   });
